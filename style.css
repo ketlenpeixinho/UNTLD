@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); /* Importa a fonte Poppins */
+ 
+* { /* Seletor universal que aplica o estilo a todos os elementos */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+:root { /* Define variáveis CSS globais que podem ser reutilizadas em todo o documento */
+    --primary-color: #8ab4f8;       /* Azul para destaques, títulos e links */
+    --secondary-color: #e8eaed;     /* Cinza claro para texto principal */
+    --tertiary-color: #9aa0a6;      /* Cinza médio para texto secundário */
+    --bg-color: #202124;            /* Fundo escuro (Google Dark Theme) */
+    --surface-color: #303134;       /* Cor de superfície para cards e inputs */
+    --hover-color: #3c4043;         /* Cor para hover em superfícies */
+}
+
+body { /* Estilos para o corpo do documento */
+    margin: 0; /* Remove a margem padrão do body */
+    background-color: var(--bg-color);
+    color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
+    font-family: "Poppins", sans-serif; /* Define a família da fonte para o corpo do texto */
+    overflow-x: hidden; /* Impede a rolagem horizontal causada pelas formas de fundo */
+    position: relative; /* Necessário para posicionar os pseudo-elementos */
+}
+
+/* Formas decorativas no fundo para realçar o efeito de vidro */
+body::before, body::after {
+    content: '';
+    position: fixed;
+    z-index: -2; /* Abaixo de tudo */
+    border-radius: 50%;
+    filter: blur(150px); /* Desfoque ainda mais intenso para um efeito aurora */
+}
+
+body::before {
+    width: 500px; /* Aumenta o tamanho da forma */
+    height: 500px;
+    background: rgba(138, 180, 248, 0.15); /* Cor primária com baixa opacidade */
+    top: -100px;
+    left: -100px;
+    animation: moveShapeBefore 40s infinite alternate; /* Animação mais lenta e suave */
+}
+
+body::after {
+    width: 600px; /* Aumenta o tamanho da forma */
+    height: 600px;
+    background: rgba(138, 180, 248, 0.1); /* Cor primária com opacidade ainda menor */
+    bottom: -150px;
+    right: -150px;
+    animation: moveShapeAfter 25s infinite alternate; /* Renomeia e ajusta a animação */
+}
+
+header { /* Estilos para o cabeçalho da página */
+    padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; /* Alinha o logo à esquerda e as ações à direita */
+    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
+    top: 0; /* Posição do topo quando sticky */
+    background: rgba(32, 33, 36, 0.7); /* Fundo com um pouco menos de transparência para legibilidade */
+    backdrop-filter: blur(12px); /* Aumenta o desfoque */
+    -webkit-backdrop-filter: blur(12px); /* Suporte para Safari */
+    z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
+    border-bottom: 1px solid var(--surface-color); /* Adiciona uma borda inferior */
+    gap: 1rem; /* Espaçamento entre os elementos flex */
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.header-logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer; /* Indica que o elemento é clicável */
+}
+
+.header-logo-container img {
+    width: 40px;
+    height: 40px;
+    transition: filter 0.3s ease; /* Adiciona uma transição suave para o efeito de brilho */
+    filter: drop-shadow(0 0 8px rgba(138, 180, 248, 0.25)); /* Adiciona um brilho sutil ao redor do logo */
+}
+
+header h1 {
+    font-family: "Poppins", sans-serif; /* Fonte moderna para o título */
+    font-size: 1.6rem; /* Tamanho da fonte */
+    font-weight: 600; /* Peso da fonte (médio) */
+    white-space: nowrap; /* Impede a quebra de linha do texto */
+    transition: color 0.2s ease;
+}
+
+.header-logo-container:hover h1 {
+    color: var(--primary-color); /* Muda a cor para um tom mais claro no hover */
+}
+
+.header-logo-container:hover img {
+    filter: drop-shadow(0 0 12px rgba(138, 180, 248, 0.4)); /* Intensifica o brilho no hover */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: var(--surface-color);
+    border-radius: 2rem; /* Bordas arredondadas para o container */
+}
+
+div input { /* Estilos para o campo de entrada (input) dentro de uma div */
+    padding: 0.375rem 0.75rem; /* Espaçamento interno */
+    border-radius: 2rem; /* Bordas bem arredondadas */
+    border: 1px solid var(--surface-color); /* Define a borda */
+    background: var(--surface-color); /* Cor de fundo */
+    font-family: inherit; /* Herda a família da fonte do elemento pai */
+    font-size: 1rem; /* Tamanho da fonte */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para todas as propriedades */
+    width: 30rem; /* Largura do input */
+    color: var(--secondary-color); /* Cor do texto digitado */
+}
+
+div input::placeholder { /* Estilos para o texto de placeholder do input */
+    font-size: 0.9rem; /* Tamanho da fonte do placeholder */
+    font-weight: 300; /* Peso da fonte do placeholder */
+    color: var(--tertiary-color); /* Cor do texto do placeholder */
+}
+
+div input:focus { /* Estilos para o input quando está em foco */
+    outline: none; /* Remove a borda de foco padrão */
+    background: var(--surface-color); /* Mantém o fundo para consistência */
+    box-shadow: 0 0 0 2px var(--bg-color), 0 0 0 4px var(--primary-color); /* Efeito de brilho ao focar */
+}
+
+#botao-busca { /* Estilos para o elemento com o ID 'botao-busca' */
+    background: transparent;
+    border: none;
+    cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+}
+
+#botao-busca svg {
+    stroke: var(--tertiary-color);
+    transition: stroke 0.2s ease;
+}
+
+#botao-busca:hover { /* Estilos para o botão de busca quando o mouse está sobre ele */
+    background-color: var(--hover-color);
+}
+
+#botao-busca:active { /* Estilos para o botão de busca quando está sendo pressionado */
+    transform: scale(0.98); /* Efeito de clique (diminui o tamanho) */
+}
+
+.header-action-btn {
+    display: flex;
+    position: relative; /* Necessário para posicionar o contador */
+    background-color: transparent;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.header-action-btn svg {
+    stroke: var(--tertiary-color);
+}
+
+.header-action-btn:hover {
+    background-color: var(--hover-color);
+}
+
+.list-counter {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    font-size: 0.7rem;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0); /* Começa invisível */
+    transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28); /* Transição com efeito "elástico" */
+    position: absolute; /* Posiciona o contador sobre o botão */
+    top: 0;
+    right: 0;
+}
+.list-counter.visible {
+    transform: scale(1); /* Torna visível com animação */
+}
+
+main { /* Estilos para o conteúdo principal da página */
+    max-width: 80rem; /* Largura máxima do conteúdo principal */;
+    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
+    margin-top: 2rem; /* Margem no topo */
+    padding: 0 1rem; /* Adiciona espaçamento lateral para evitar que os cards cortem nas bordas */
+    min-height: calc(100vh - 10rem - 4rem); /* Garante uma altura mínima, mas permite crescer */
+}
+
+#cards-wrapper.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.filtros-container {
+    max-width: 60rem; /* Define uma largura máxima para o container dos filtros */
+    margin: 2rem auto 0; /* Adiciona margem no topo e centraliza */
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap; /* Permite que os botões quebrem para a próxima linha */
+}
+
+.botao-filtro {
+    background: transparent;
+    border-radius: 1.5rem; /* Formato de pílula */
+    border: 1px solid var(--tertiary-color);
+    padding: 0.6rem 1.2rem;
+
+    color: var(--secondary-color);
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.botao-filtro:hover, .botao-filtro.ativo {
+    background-color: var(--primary-color);
+    color: var(--bg-color); /* Texto escuro para contraste com o fundo azul */
+    border-color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(138, 180, 248, 0.2); /* Adiciona um brilho sutil */
+}
+
+.filtros-container:empty {
+    display: none;
+}
+
+/* Estilos para a visualização em grade */
+#cards-wrapper.grid-view .card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+#cards-wrapper.grid-view .card-imagem {
+    width: 100%;
+    max-width: 200px;
+}
+
+article.card { /* Estilos para os elementos de artigo */
+    display: flex; /* Habilita o flexbox para alinhar imagem e conteúdo lado a lado */
+    gap: 1.5rem; /* Adiciona um espaço entre a imagem e o texto */
+    background: rgba(48, 49, 52, 0.35); /* Fundo ainda mais transparente */
+    backdrop-filter: blur(20px); /* Desfoque muito mais intenso para o efeito de vidro */
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 0.75rem; /* Bordas mais arredondadas */
+    padding: 2rem;
+    margin-bottom: 1.25rem; /* Margem inferior */
+    transition: all 0.4s ease; /* Transição mais suave */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Borda sutil para definir o vidro */
+    overflow: hidden; /* Garante que nada vaze dos cantos arredondados */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Sombra mais suave para dar profundidade */
+    position: relative; /* Necessário para o pseudo-elemento de brilho */
+}
+.cards-wrapper.fade-out {
+    opacity: 0;
+}
+.cards-wrapper {
+    /* animation: card-fade-in 0.6s ease-out forwards; */
+    transition: opacity 0.4s ease-out;
+}
+
+.card-imagem {
+    width: 170px; /* Largura da imagem */
+    height: 255px; /* Altura da imagem (proporcional) */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    border-radius: 0.5rem; /* Bordas arredondadas para a imagem */
+    flex-shrink: 0; /* Impede que a imagem encolha */
+    transition: transform 0.4s ease; /* Adiciona uma transição suave para a animação da imagem */
+}
+
+.card-conteudo {
+    display: flex;
+    flex-direction: column; /* Organiza o texto em uma coluna */
+}
+
+.card-descricao {
+    flex-grow: 1; /* Faz a descrição ocupar o espaço vertical disponível */
+    text-align: justify; /* Justifica o texto da descrição */
+    margin-bottom: 1rem; /* Adiciona espaço antes das tags */
+}
+
+article.card:hover { /* Estilos para o artigo quando o mouse está sobre ele com mais animações */
+    background-color: rgba(60, 64, 67, 0.5); /* Fundo mais visível no hover */
+    transform: translateY(-10px) scale(1.02); /* Efeito de elevação mais sutil */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada no hover */    
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+article h2 { /* Estilos para o título h2 dentro de um artigo */
+    font-family: "Poppins", sans-serif; /* Fonte moderna para os títulos dos artigos */
+    margin-top: 0; /* Remove a margem superior */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    letter-spacing: 0; /* Espaçamento entre letras normal */
+    border-bottom: none; /* Sem borda inferior */
+    padding-bottom: 0; /* Sem espaçamento interno inferior */
+    margin-bottom: 0.25rem; /* Margem inferior */
+    color: var(--primary-color); /* Cor do texto */
+}
+
+article p { /* Estilos para os parágrafos dentro de um artigo */
+    margin: 0.5rem 0; /* Margem superior e inferior */
+    line-height: 1.7; /* Altura da linha para melhor legibilidade */
+    font-size: 0.9rem; /* Tamanho da fonte */
+    margin-bottom: 0.5rem; /* Margem inferior */
+    color: var(--secondary-color); /* Cor do texto */
+}
+
+article p strong { /* Estilos para o texto em negrito (strong) dentro de um parágrafo de artigo */
+    color: var(--tertiary-color); /* Cor do texto em negrito */
+    font-weight: 500; /* Peso da fonte */
+}
+
+article a { /* Estilos para os links dentro de um artigo */
+    color: var(--primary-color); /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 0.85rem; /* Reduz o tamanho da fonte do link */
+}
+
+article a:hover { /* Estilos para os links dentro de um artigo quando o mouse está sobre eles */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; /* Empurra para o final do card */
+    padding-top: 1rem;
+}
+
+.add-to-list-btn {
+    background: transparent;
+    border: 1px solid var(--tertiary-color);
+    color: var(--tertiary-color);
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.add-to-list-btn.in-list {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.mark-as-read-btn {
+    background: transparent;
+    border: 1px solid var(--tertiary-color);
+    color: var(--tertiary-color);
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.mark-as-read-btn.is-read {
+    background-color: #34a853; /* Verde para indicar sucesso/conclusão */
+    border-color: #34a853;
+    color: var(--bg-color);
+}
+.card.is-read .card-imagem {
+    filter: grayscale(40%);
+}
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem; /* Espaço entre as tags e o link 'Ver mais' */
+}
+
+.tag {
+    background-color: var(--surface-color);
+    color: var(--tertiary-color);
+    padding: 0.25rem 0.6rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border: 1px solid var(--hover-color);
+    white-space: nowrap;
+}
+
+.footer { /* Estilos para o rodapé */
+    position: absolute; /* Posicionamento absoluto em relação ao elemento pai posicionado */
+    bottom: 0; /* Alinha na parte inferior */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Largura total */
+    color: var(--tertiary-color); /* Cor do texto */
+    background-color: var(--bg-color); /* Cor de fundo */
+    padding: 1.5rem;
+    border-top: 1px solid #3c4043; /* Borda superior */
+    font-size: 0.8rem; /* Tamanho da fonte */
+}
+
+.footer-location { /* Estilos para a localização no rodapé */
+    color: #9aa0a6; /* Cor do texto */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+.footer-links { /* Estilos para a lista de links no rodapé */
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Habilita o layout flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 1.5rem; /* Espaçamento entre os links */
+}
+
+.footer-links a { /* Estilos para os links no rodapé */
+    color: var(--secondary-color); /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.2s; /* Transição suave para a cor */
+}
+
+.footer-links a:hover { /* Estilos para os links no rodapé quando o mouse está sobre eles */
+    color: var(--primary-color); /* Muda a cor do link ao passar o mouse */
+}
+
+/* Botão Voltar ao Topo */
+#botao-voltar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100px); /* Começa fora da tela para uma entrada suave */
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.4s ease-out;
+    z-index: 100;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#botao-voltar-topo.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) { /* Media query para telas com largura máxima de 768px (tablets e celulares maiores) */
+    header { /* Estilos para telas com largura máxima de 768px */
+        flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
+        padding: 1rem; /* Reduz o espaçamento interno */
+    }
+
+    header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 1rem; /* Adiciona margem inferior */
+    }
+
+    div input { /* Estilos para o input em telas menores */
+        width: 90vw; /* Largura baseada na largura da viewport */
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+    }
+
+    main { /* Estilos para o main em telas menores */
+        padding: 0 1rem; /* Adiciona espaçamento lateral */
+    }
+
+    article.card {
+        flex-direction: column; /* Empilha imagem e conteúdo */
+        align-items: center; /* Centraliza os itens */
+        padding: 1.5rem;
+    }
+
+    .card-imagem {
+        width: 100%; /* Ocupa a largura do card */
+        height: auto; /* Altura automática para manter proporção */
+        max-width: 200px; /* Limita o tamanho máximo da imagem */
+    }
+
+}
+
+@media (max-width: 480px) { /* Media query para telas com largura máxima de 480px (celulares) */
+    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
+        font-size: 1.3rem; /* Reduz ainda mais o tamanho da fonte */
+        max-width: 70%; /* Define uma largura máxima */
+        word-wrap: break-word; /* Permite a quebra de palavras longas */
+    }
+
+    div input, /* Estilos para o input e seu placeholder em telas muito pequenas */
+    div input::placeholder {
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+    }
+
+    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
+        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+    }
+
+    header .search-container { /* Estilo específico para o container de busca no header */
+        display: flex; /* Habilita flexbox */
+        align-items: center; /* Alinha itens ao centro */
+        justify-content: center; /* Centraliza itens */
+        flex-direction: column; /* Organiza em coluna */
+        gap: 0.5rem; /* Espaçamento entre os itens */
+    }
+    
+    .header-action-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer { /* Estilos para o rodapé em telas muito pequenas */
+        display: none; /* Oculta o rodapé */
+    }
+
+    button { /* Estilos para o botão em telas muito pequenas */
+        margin-top: 1rem; /* Adiciona margem no topo */
+    }
+}
+
+@keyframes card-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animação para a forma do fundo (canto inferior direito) */
+@keyframes moveShapeAfter {
+    from {
+        transform: translate(0, 0) rotate(0deg) scale(1);
+    } 
+    to {
+        transform: translate(-80px, 60px) rotate(60deg) scale(1.2);
+    }
+}
+
+/* Animação para a forma do fundo (canto superior esquerdo) */
+@keyframes moveShapeBefore {
+    from {
+        transform: translate(0, 0) rotate(0deg) scale(1.1);
+    }
+    to {
+        transform: translate(40px, -60px) rotate(-35deg) scale(0.9);
+    }
+}
+
+.secao-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    /* Oculto por padrão, visível apenas quando há conteúdo */
+    visibility: hidden; 
+}
+
+.view-switcher {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.view-btn {
+    background: transparent;
+    border: 1px solid var(--surface-color);
+    color: var(--tertiary-color);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.view-btn:hover {
+    background-color: var(--surface-color);
+    color: var(--primary-color);
+}
+
+.view-btn.ativo {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.titulo-secao {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--surface-color);
+    padding-bottom: 0.5rem;
+    margin-top: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    visibility: hidden; /* Oculto por padrão */
+}
+
+.page-btn {
+    background: transparent;
+    border: 1px solid var(--surface-color);
+    color: var(--tertiary-color);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 0.6rem 0.9rem;
+    font-family: inherit;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.page-btn:hover:not(:disabled) {
+    background-color: var(--surface-color);
+    color: var(--primary-color);
+}
+
+.page-btn.ativo {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.page-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.pagination-ellipsis {
+    display: flex;
+    align-items: center;
+    padding: 0.6rem 0.4rem;
+    color: var(--tertiary-color);
+    font-weight: 500;
+}
+
+.no-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--tertiary-color);
+    animation: card-fade-in 0.6s ease-out forwards;
+}
+
+.no-results-container svg {
+    stroke: var(--surface-color);
+    margin-bottom: 1rem;
+}
+
+.no-results-container h3 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.welcome-title {
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: var(--surface-color);
+    margin: 0 0 1rem 0;
+    letter-spacing: 2px;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 40vh;
+    color: var(--secondary-color);
+    padding: 2rem;
+}
+
+.welcome-container h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.welcome-container p {
+    font-size: 1.1rem;
+    color: var(--tertiary-color); /* Um tom de cinza mais claro para o subtítulo */
+    max-width: 500px;
+    line-height: 1.6;
+}

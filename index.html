@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo3.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>UNTLD</title>
+</head>
+<body>
+    <header>
+        <div id="home-button" class="header-logo-container" title="Página Inicial">
+            <img src="logo3.png" alt="UNTLD logo" class="header-logo">
+        </div>
+        <div class="header-actions">
+            <div class="search-container">
+                <input type="text" id="barraDeBusca" placeholder="Buscar por livro, autor ou tag...">
+                <button id="botao-busca" title="Buscar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+            </div>
+            <button id="view-reading-list-btn" class="header-action-btn" title="Ver sua lista de leitura">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                <span id="reading-list-counter" class="list-counter"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="conteudo-principal" class="card-container">
+            <div class="secao-header">
+                <h2 id="titulo-secao-principal" class="titulo-secao"></h2>
+                <div id="view-switcher" class="view-switcher">
+                    <button id="list-view-btn" class="view-btn" title="Visualização em Lista"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg></button>
+                    <button id="grid-view-btn" class="view-btn" title="Visualização em Grade"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg></button>
+                </div>
+            </div>
+            <div id="cards-wrapper"></div>
+            <div id="pagination-container" class="pagination-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="footer-links">
+            <li>
+                <a href="https://www.alura.com.br/?srsltid=AfmBOooQmmqR8Sc07qVBPb0xy6eXfOCcLgTiV8LPOt9HTW7xyei_9Kif">Alura</a>
+            </li>
+            <li>
+                <a href="https://github.com/ketlenpeixinho">GitHub</a>
+            </li>
+            <!-- Outros links podem ser adicionados aqui -->
+        </ul>
+    </footer>
+
+    <button id="botao-voltar-topo" title="Voltar ao topo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

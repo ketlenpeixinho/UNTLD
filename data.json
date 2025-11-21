@@ -1,0 +1,702 @@
+[
+  {
+    "nome": "Os Sete Maridos de Evelyn Hugo",
+    "descrição": "Uma lendária estrela de Hollywood, Evelyn Hugo, decide contar a verdade sobre sua vida glamorosa e escandalosa. A história aborda sua ascensão à fama, seus sete casamentos e um amor proibido.",
+    "ano": 2017,
+    "autor": "Taylor Jenkins Reid",
+    "gênero": "Ficção Histórica",
+    "link": "https://pt.wikipedia.org/wiki/Os_Sete_Maridos_de_Evelyn_Hugo",
+    "imagem": "https://m.media-amazon.com/images/I/91yEPgRcELL.jpg",
+    "tags": ["Romance", "LGBTQ+", "Drama"]
+  },
+  {
+    "nome": "A Noite Passada no Telegraph Club",
+    "descrição": "A Noite Passada no Telegraph Club é um romance histórico estadunidense para jovens adultos escrito por Malinda Lo e publicado em 19 de janeiro de 2021 pela Dutton Books for Young Readers.",
+    "ano": 2021,
+    "autor": "Malinda Lo",
+    "gênero": "Ficção Histórica",
+    "link": "https://pt.wikipedia.org/wiki/A_Noite_Passada_no_Telegraph_Club",
+    "imagem": "https://m.media-amazon.com/images/I/91CXVPedTuL.jpg",
+    "tags": ["Jovem Adulto", "Romance", "LGBTQ+"]
+  },
+  {
+    "nome": "Circe",
+    "descrição": "Circe é um romance de 2018 da escritora americana Madeline Miller. Passado durante a Era Heroica grega, é uma adaptação de vários mitos gregos, mais notavelmente a Odisseia, contada da perspectiva da bruxa Circe.",
+    "ano": 2018,
+    "autor": "Madeline Miller",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/Circe_(romance)",
+    "imagem": "https://m.media-amazon.com/images/I/81qMz8Yl2YL.jpg",
+    "tags": ["Mitologia", "Ficção Histórica", "Drama"]
+  },
+  {
+    "nome": "Devoradores de Estrelas",
+    "descrição": "Devoradores de Estrelas (em inglês, Project Hail Mary) é um romance de ficção científica de 2021 do escritor americano Andy Weir. A trama segue um professor de ciências do ensino médio que acorda em uma nave espacial sem memória de sua missão ou identidade.",
+    "ano": 2021,
+    "autor": "Andy Weir",
+    "gênero": "Ficção Científica",
+    "link": "https://en.wikipedia.org/wiki/Project_Hail_Mary",
+    "imagem": "https://m.media-amazon.com/images/I/912LLkkhCaS.jpg",
+    "tags": ["Aventura", "Mistério", "Humor"]
+  },
+  {
+    "nome": "Klara e o Sol",
+    "descrição": "Klara e o Sol é o oitavo romance do escritor nipo-britânico Kazuo Ishiguro, publicado em 2 de março de 2021. A história é contada da perspectiva de Klara, um 'Amigo Artificial', sobre um mundo distópico.",
+    "ano": 2021,
+    "autor": "Kazuo Ishiguro",
+    "gênero": "Ficção Científica",
+    "link": "https://pt.wikipedia.org/wiki/Klara_and_the_Sun",
+    "imagem": "https://m.media-amazon.com/images/I/61KpcMw87YL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Distopia", "Drama", "Filosófico"]
+  },
+  {
+    "nome": "A Biblioteca da Meia-Noite",
+    "descrição": "Entre a vida e a morte, há uma biblioteca. Quando Nora Seed se vê na Biblioteca da Meia-Noite, ela ganha uma oportunidade de fazer tudo diferente. Cada livro oferece a chance de experimentar outra vida que ela poderia ter vivido.",
+    "ano": 2020,
+    "autor": "Matt Haig",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/The_Midnight_Library",
+    "imagem": "https://m.media-amazon.com/images/I/81iqH8dpjuL.jpg",
+    "tags": ["Ficção Filosófica", "Realismo Mágico", "Drama"]
+  },
+  {
+    "nome": "O Problema dos Três Corpos",
+    "descrição": "Durante a Revolução Cultural Chinesa, um projeto militar secreto envia sinais para o espaço. Uma civilização alienígena à beira do colapso capta o sinal e planeja invadir a Terra. Dividida entre acolher ou resistir, a humanidade enfrenta seu maior desafio.",
+    "ano": 2008,
+    "autor": "Cixin Liu",
+    "gênero": "Ficção Científica",
+    "link": "https://pt.wikipedia.org/wiki/O_Problema_dos_Tr%C3%AAs_Corpos",
+    "imagem": "https://m.media-amazon.com/images/I/91GAPz2NW8L._UF1000,1000_QL80_.jpg",
+    "tags": ["Hard Sci-Fi", "Mistério", "Primeiro Contato"]
+  },
+  {
+    "nome": "É Assim que Acaba",
+    "descrição": "Lily superou uma infância difícil para começar uma nova vida em Boston e seguir o sonho de abrir sua própria floricultura. Um encontro casual com o neurocirurgião Ryle Kincaid parece bom demais para ser verdade, mas o relacionamento a faz questionar tudo.",
+    "ano": 2016,
+    "autor": "Colleen Hoover",
+    "gênero": "Romance",
+    "link": "https://pt.wikipedia.org/wiki/It_Ends_with_Us",
+    "imagem": "https://m.media-amazon.com/images/I/91r5G8RxqfL.jpg",
+    "tags": ["Drama", "Contemporâneo", "Jovem Adulto"]
+  },
+  {
+    "nome": "A Canção de Aquiles",
+    "descrição": "Uma releitura da Guerra de Troia e da vida de Aquiles contada pela perspectiva de Pátroclo. O romance segue a jornada dos dois jovens desde o exílio de Pátroclo até os eventos épicos da Ilíada, focando em seu profundo relacionamento.",
+    "ano": 2011,
+    "autor": "Madeline Miller",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/The_Song_of_Achilles",
+    "imagem": "https://m.media-amazon.com/images/I/81mcTra5mgS._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Mitologia", "Romance", "LGBTQ+"]
+  },
+  {
+    "nome": "Duna",
+    "descrição": "Em um futuro distante, a humanidade está espalhada por planetas governados por casas nobres. Paul Atreides, herdeiro da Casa Atreides, vê sua família assumir o controle do planeta desértico Arrakis, única fonte da especiaria melange, a substância mais valiosa do universo.",
+    "ano": 1965,
+    "autor": "Frank Herbert",
+    "gênero": "Ficção Científica",
+    "link": "https://pt.wikipedia.org/wiki/Dune_(romance)",
+    "imagem": "https://m.media-amazon.com/images/I/81zN7udGRUL.jpg",
+    "tags": ["Aventura", "Fantasia", "Política"]
+  },
+  {
+    "nome": "O Hobbit",
+    "descrição": "Bilbo Bolseiro, um hobbit que aprecia o conforto de sua casa, tem sua vida virada de cabeça para baixo quando o mago Gandalf e um grupo de anões o convencem a participar de uma jornada para retomar um tesouro roubado pelo dragão Smaug.",
+    "ano": 1937,
+    "autor": "J.R.R. Tolkien",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/O_Hobbit",
+    "imagem": "https://m.media-amazon.com/images/I/91M9xPIf10L._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Aventura", "Alta Fantasia", "Clássico"]
+  },
+  {
+    "nome": "1984",
+    "descrição": "Em um futuro distópico onde o Estado totalitário, liderado pelo Grande Irmão, vigia todos os cidadãos e reprime qualquer forma de individualidade, Winston Smith, um funcionário do Partido, começa a questionar o regime e a sonhar com a rebelião.",
+    "ano": 1949,
+    "autor": "George Orwell",
+    "gênero": "Distopia",
+    "link": "https://pt.wikipedia.org/wiki/Nineteen_Eighty-Four",
+    "imagem": "https://cdn.kobo.com/book-images/fb0c52e7-c427-4eb3-b5aa-9aafc7efea43/1200/1200/False/AhIbw1TJuje1l6QPMtht5A.jpg",
+    "tags": ["Ficção Científica", "Política", "Clássico"]
+  },
+  {
+    "nome": "Sapiens: Uma Breve História da Humanidade",
+    "descrição": "Uma exploração da história da humanidade, desde a Idade da Pedra até a era moderna. Harari examina como o Homo sapiens evoluiu para dominar o planeta, criando conceitos como dinheiro, nações e direitos humanos.",
+    "ano": 2011,
+    "autor": "Yuval Noah Harari",
+    "gênero": "Não-Ficção",
+    "link": "https://pt.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind",
+    "imagem": "https://m.media-amazon.com/images/I/71uzVVfz47L._UF1000,1000_QL80_.jpg",
+    "tags": ["História", "Antropologia", "Ciência"]
+  },
+  {
+    "nome": "O Alquimista",
+    "descrição": "A história de Santiago, um pastor andaluz que viaja do sul da Espanha para o deserto egípcio em busca de um tesouro enterrado perto das Pirâmides. Uma jornada sobre seguir seus sonhos e ouvir seu coração.",
+    "ano": 1988,
+    "autor": "Paulo Coelho",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/O_Alquimista",
+    "imagem": "https://m.media-amazon.com/images/I/81slUinjTlS.jpg",
+    "tags": ["Aventura", "Filosófico", "Drama"]
+  },
+  {
+    "nome": "Cem Anos de Solidão",
+    "descrição": "A saga da família Buendía na cidade fictícia de Macondo. O romance narra a história de sete gerações da família, explorando temas de solidão, amor, guerra e o ciclo da vida e da morte através do realismo mágico.",
+    "ano": 1967,
+    "autor": "Gabriel García Márquez",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/Cem_Anos_de_Solid%C3%A3o",
+    "imagem": "https://m.media-amazon.com/images/I/91DmAuUBJVL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Realismo Mágico", "Saga Familiar", "Clássico"]
+  },
+  {
+    "nome": "Orgulho e Preconceito",
+    "descrição": "A história de Elizabeth Bennet, uma das cinco filhas de um cavalheiro rural, e sua turbulenta relação com o rico e orgulhoso Sr. Darcy. O romance explora as questões de casamento, moralidade e status social na Inglaterra do século XIX.",
+    "ano": 1813,
+    "autor": "Jane Austen",
+    "gênero": "Romance",
+    "link": "https://pt.wikipedia.org/wiki/Pride_and_Prejudice",
+    "imagem": "https://m.media-amazon.com/images/I/81gOkEhzgIL._UF1000,1000_QL80_.jpg",
+    "tags": ["Clássico", "Ficção Histórica", "Sátira"]
+  },
+  {
+    "nome": "O Guia do Mochileiro das Galáxias",
+    "descrição": "Momentos antes da Terra ser demolida para dar lugar a uma via expressa espacial, Arthur Dent é salvo por seu amigo Ford Prefect, um pesquisador para o guia de viagens intergaláctico.",
+    "ano": 1979,
+    "autor": "Douglas Adams",
+    "gênero": "Ficção Científica",
+    "link": "https://pt.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy",
+    "imagem": "https://m.media-amazon.com/images/I/91NAJgaUlKL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Comédia", "Aventura", "Clássico"]
+  },
+  {
+    "nome": "O Senhor dos Anéis: A Sociedade do Anel",
+    "descrição": "Em uma terra fantástica e única, um hobbit recebe de presente de seu tio um anel mágico e maligno que precisa ser destruído antes que caia nas mãos do mal. Para isso, o hobbit Frodo tem um caminho árduo pela frente.",
+    "ano": 1954,
+    "autor": "J.R.R. Tolkien",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/The_Fellowship_of_the_Ring",
+    "imagem": "https://m.media-amazon.com/images/I/81SWBRKfExL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Alta Fantasia", "Aventura", "Clássico"]
+  },
+  {
+    "nome": "Fahrenheit 451",
+    "descrição": "Guy Montag é um bombeiro cuja profissão é queimar livros, que são proibidos. Ele nunca questionou seu trabalho até conhecer uma jovem que o faz perceber o vazio de sua existência e o poder das ideias contidas nos livros.",
+    "ano": 1953,
+    "autor": "Ray Bradbury",
+    "gênero": "Distopia",
+    "link": "https://pt.wikipedia.org/wiki/Fahrenheit_451",
+    "imagem": "https://m.media-amazon.com/images/I/51tAD6LyZ-L._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Ficção Científica", "Clássico", "Política"]
+  },
+  {
+    "nome": "A Revolução dos Bichos",
+    "descrição": "Uma sátira sobre a Revolução Russa e o stalinismo, onde os animais de uma fazenda se rebelam contra seus donos humanos na esperança de criar uma sociedade igualitária, apenas para verem a rebelião ser traída por seus líderes.",
+    "ano": 1945,
+    "autor": "George Orwell",
+    "gênero": "Distopia",
+    "link": "https://pt.wikipedia.org/wiki/Animal_Farm",
+    "imagem": "https://m.media-amazon.com/images/I/91vBqn2VzWS.jpg",
+    "tags": ["Sátira", "Política", "Clássico"]
+  },
+  {
+    "nome": "O Pequeno Príncipe",
+    "descrição": "Um piloto de avião cai no deserto do Saara e encontra um jovem príncipe que viajou de seu pequeno planeta. Através de suas conversas, o livro explora temas de amor, perda, amizade e a natureza humana.",
+    "ano": 1943,
+    "autor": "Antoine de Saint-Exupéry",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/Le_Petit_Prince",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/47/O-pequeno-pr%C3%ADncipe.jpg/250px-O-pequeno-pr%C3%ADncipe.jpg",
+    "tags": ["Filosófico", "Infantil", "Clássico"]
+  },
+  {
+    "nome": "O Apanhador no Campo de Centeio",
+    "descrição": "Narrado por Holden Caulfield, um jovem que acaba de ser expulso de um colégio interno. O romance detalha suas experiências em Nova York, explorando temas de angústia adolescente, alienação e identidade.",
+    "ano": 1951,
+    "autor": "J.D. Salinger",
+    "gênero": "Romance",
+    "link": "https://pt.wikipedia.org/wiki/The_Catcher_in_the_Rye",
+    "imagem": "https://m.media-amazon.com/images/I/71b3GDZMzSL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Clássico", "Jovem Adulto", "Drama"]
+  },
+  {
+    "nome": "O Nome do Vento",
+    "descrição": "A história de Kvothe, um aventureiro e músico famoso que conta sua vida a um cronista. Desde sua infância em uma trupe de artistas itinerantes até seus estudos na Universidade, o livro narra sua busca por conhecimento e vingança.",
+    "ano": 2007,
+    "autor": "Patrick Rothfuss",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/O_Nome_do_Vento",
+    "imagem": "https://m.media-amazon.com/images/I/81CGmkRG9GL.jpg",
+    "tags": ["Alta Fantasia", "Aventura", "Magia"]
+  },
+  {
+    "nome": "Neuromancer",
+    "descrição": "Case, um ex-hacker de elite, é contratado para uma última missão. O romance é um marco do gênero cyberpunk, explorando um futuro de alta tecnologia, inteligência artificial e a matriz, uma representação virtual do ciberespaço.",
+    "ano": 1984,
+    "autor": "William Gibson",
+    "gênero": "Ficção Científica",
+    "link": "https://pt.wikipedia.org/wiki/Neuromancer",
+    "imagem": "https://m.media-amazon.com/images/I/91Bx5ilP+EL.jpg",
+    "tags": ["Cyberpunk", "Distopia", "Clássico"]
+  },
+  {
+    "nome": "O Sol é para Todos",
+    "descrição": "Narrado pela jovem Scout Finch, o romance se passa em uma pequena cidade do Alabama. Seu pai, o advogado Atticus Finch, defende um homem negro falsamente acusado, expondo as injustiças raciais da época.",
+    "ano": 1960,
+    "autor": "Harper Lee",
+    "gênero": "Romance",
+    "link": "https://pt.wikipedia.org/wiki/To_Kill_a_Mockingbird",
+    "imagem": "https://m.media-amazon.com/images/I/91WKPd60P4L.jpg",
+    "tags": ["Clássico", "Ficção Histórica", "Drama"]
+  },
+  {
+    "nome": "O Retrato de Dorian Gray",
+    "descrição": "Um jovem belo vende sua alma para que seu retrato envelheça e carregue as marcas de seus pecados, enquanto ele permanece eternamente jovem. Uma exploração da vaidade, moralidade e decadência.",
+    "ano": 1890,
+    "autor": "Oscar Wilde",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/The_Picture_of_Dorian_Gray",
+    "imagem": "https://m.media-amazon.com/images/I/81tklJTDldL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Clássico", "Gótico", "Filosófico"]
+  },
+  {
+    "nome": "Frankenstein",
+    "descrição": "Victor Frankenstein, um jovem cientista ambicioso, cria uma criatura viva a partir de restos mortais. No entanto, ele abandona sua criação, que busca vingança e compreensão em um mundo que a rejeita.",
+    "ano": 1818,
+    "autor": "Mary Shelley",
+    "gênero": "Ficção Científica",
+    "link": "https://pt.wikipedia.org/wiki/Frankenstein",
+    "imagem": "https://m.media-amazon.com/images/I/81-OgmOxScL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Gótico", "Terror", "Clássico"]
+  },
+  {
+    "nome": "O Nome da Rosa",
+    "descrição": "Em um mosteiro beneditino na Itália do século XIV, uma série de assassinatos misteriosos ocorre. O frade franciscano Guilherme de Baskerville e seu noviço Adso de Melk investigam os crimes, que parecem estar ligados a um livro proibido.",
+    "ano": 1980,
+    "autor": "Umberto Eco",
+    "gênero": "Romance Histórico",
+    "link": "https://pt.wikipedia.org/wiki/The_Name_of_the_Rose",
+    "imagem": "https://m.media-amazon.com/images/I/81uo8phJ+zL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Mistério", "Suspense", "Clássico"]
+  },
+  {
+    "nome": "A Menina que Roubava Livros",
+    "descrição": "Durante a Segunda Guerra Mundial, na Alemanha nazista, a jovem Liesel Meminger rouba livros e os compartilha com os outros, incluindo um judeu escondido em seu porão. A história é narrada pela Morte.",
+    "ano": 2005,
+    "autor": "Markus Zusak",
+    "gênero": "Romance Histórico",
+    "link": "https://pt.wikipedia.org/wiki/The_Book_Thief",
+    "imagem": "https://m.media-amazon.com/images/I/61L+4OBhm-L._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Drama", "Guerra", "Jovem Adulto"]
+  },
+  {
+    "nome": "Admirável Mundo Novo",
+    "descrição": "Uma sociedade futurista que alcançou a paz e a estabilidade através da engenharia genética, condicionamento psicológico e controle social. O romance explora a perda da individualidade em troca da felicidade garantida.",
+    "ano": 1932,
+    "autor": "Aldous Huxley",
+    "gênero": "Distopia",
+    "link": "https://pt.wikipedia.org/wiki/Brave_New_World",
+    "imagem": "https://m.media-amazon.com/images/I/61hOp6UFvCL.jpg",
+    "tags": ["Ficção Científica", "Clássico", "Filosófico"]
+  },
+  {
+    "nome": "O Grande Gatsby",
+    "descrição": "A história do misterioso milionário Jay Gatsby e sua obsessão pela bela Daisy Buchanan. Narrado por Nick Carraway, o romance é uma crítica ao Sonho Americano e à decadência da sociedade nos anos 1920.",
+    "ano": 1925,
+    "autor": "F. Scott Fitzgerald",
+    "gênero": "Romance",
+    "link": "https://pt.wikipedia.org/wiki/The_Great_Gatsby",
+    "imagem": "https://m.media-amazon.com/images/I/71+G89dpO4L.jpg",
+    "tags": ["Clássico", "Ficção Histórica", "Drama"]
+  },
+  {
+    "nome": "A Estrada",
+    "descrição": "Em um mundo pós-apocalíptico, um pai e seu filho viajam por uma paisagem devastada em direção ao sul, em busca de calor e segurança. Eles enfrentam a fome, o frio e os perigos de um mundo sem lei.",
+    "ano": 2006,
+    "autor": "Cormac McCarthy",
+    "gênero": "Ficção Científica",
+    "link": "https://pt.wikipedia.org/wiki/The_Road",
+    "imagem": "https://m.media-amazon.com/images/I/81ZcoksMCKL.jpg",
+    "tags": ["Pós-apocalíptico", "Distopia", "Drama"]
+  },
+  {
+    "nome": "Ensaio sobre a Cegueira",
+    "descrição": "Uma epidemia de cegueira branca se espalha por uma cidade, causando o colapso da sociedade. O romance segue um grupo de pessoas em quarentena enquanto lutam para sobreviver em meio ao caos e à desumanização.",
+    "ano": 1995,
+    "autor": "José Saramago",
+    "gênero": "Romance",
+    "link": "https://pt.wikipedia.org/wiki/Ensaio_sobre_a_Cegueira",
+    "imagem": "https://m.media-amazon.com/images/I/71Hr1-by3UL.jpg",
+    "tags": ["Distopia", "Alegoria", "Filosófico"]
+  },
+  {
+    "nome": "O Conto da Aia",
+    "descrição": "Em uma sociedade teocrática e totalitária, as mulheres são tratadas como propriedade do Estado. Offred, uma das poucas mulheres férteis restantes, é forçada a servir como aia em uma tentativa de repovoar um mundo devastado.",
+    "ano": 1985,
+    "autor": "Margaret Atwood",
+    "gênero": "Distopia",
+    "link": "https://pt.wikipedia.org/wiki/The_Handmaid%27s_Tale",
+    "imagem": "https://rocco.com.br/wp-content/uploads/2025/10/9786555326024.jpg",
+    "tags": ["Ficção Científica", "Feminismo", "Política"]
+  },
+  {
+    "nome": "Perdido em Marte",
+    "descrição": "O astronauta Mark Watney é presumido morto após uma tempestade em Marte e deixado para trás por sua tripulação. Sozinho no planeta hostil, ele deve usar sua engenhosidade para sobreviver e encontrar uma maneira de sinalizar à Terra que está vivo.",
+    "ano": 2011,
+    "autor": "Andy Weir",
+    "gênero": "Ficção Científica",
+    "link": "https://pt.wikipedia.org/wiki/The_Martian_(romance)",
+    "imagem": "https://m.media-amazon.com/images/I/71vP5oOJheL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Aventura", "Humor", "Hard Sci-Fi"]
+  },
+  {
+    "nome": "A Menina da Montanha",
+    "descrição": "A autobiografia de Tara Westover, que, criada em uma família survivalista no Idaho, nunca frequentou a escola. Aos dezessete anos, ela decide buscar educação e acaba em Cambridge, explorando o mundo e sua própria identidade.",
+    "ano": 2018,
+    "autor": "Tara Westover",
+    "gênero": "Não-Ficção",
+    "link": "https://pt.wikipedia.org/wiki/Educated_(memoir)",
+    "imagem": "https://m.media-amazon.com/images/I/71VRFiQRd8L._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Biografia", "Memórias", "Educação"]
+  },
+  {
+    "nome": "Mistborn: O Império Final",
+    "descrição": "Em um mundo de cinzas e névoa, governado por um tirano imortal, uma jovem ladra de rua descobre que possui os poderes dos 'Nascidos da Bruma'. Ela se junta a um grupo de rebeldes para derrubar o Império Final.",
+    "ano": 2006,
+    "autor": "Brandon Sanderson",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/Mistborn:_The_Final_Empire",
+    "imagem": "https://m.media-amazon.com/images/I/811qBmIYTFL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Alta Fantasia", "Aventura", "Magia"]
+  },
+  {
+    "nome": "Quarta Asa",
+    "descrição": "Violet Sorrengail, destinada a uma vida tranquila entre livros, é forçada por sua mãe, a general, a se juntar a um perigoso esquadrão de cavaleiros de dragões, onde a única regra é sobreviver.",
+    "ano": 2023,
+    "autor": "Rebecca Yarros",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/Fourth_Wing",
+    "imagem": "https://m.media-amazon.com/images/I/91d26e09EeL._UF1000,1000_QL80_.jpg",
+    "tags": ["Romance", "Aventura", "Dragões"]
+  },
+  {
+    "nome": "Chama de Ferro",
+    "descrição": "A sequência de 'Quarta Asa'. Violet Sorrengail continua seu treinamento no Quadrante dos Cavaleiros, mas agora o perigo é ainda maior. Segredos antigos e novas ameaças testarão seus limites e lealdades.",
+    "ano": 2023,
+    "autor": "Rebecca Yarros",
+    "gênero": "Fantasia",
+    "link": "https://www.goodreads.com/book/show/90202302-iron-flame",
+    "imagem": "https://m.media-amazon.com/images/I/91i+8KU2U5L.jpg",
+    "tags": ["Romance", "Aventura", "Dragões"]
+  },
+  {
+    "nome": "Holly",
+    "descrição": "A detetive particular Holly Gibney, em meio a uma pandemia, precisa confrontar seus próprios medos para investigar o desaparecimento de uma jovem e desvendar os segredos macabros de um casal de professores aposentados.",
+    "ano": 2023,
+    "autor": "Stephen King",
+    "gênero": "Mistério",
+    "link": "https://pt.wikipedia.org/wiki/Holly_(romance)",
+    "imagem": "https://m.media-amazon.com/images/I/91krtBWXV5L.jpg",
+    "tags": ["Suspense", "Terror", "Crime"]
+  },
+  {
+    "nome": "A Filha da Deusa da Lua",
+    "descrição": "Inspirado na lenda da deusa chinesa da lua, Chang'e. Xingyin cresceu na lua, sem saber que sua existência é um segredo. Ao descobrir, ela foge e embarca em uma jornada perigosa para salvar sua mãe.",
+    "ano": 2022,
+    "autor": "Sue Lynn Tan",
+    "gênero": "Fantasia",
+    "link": "https://www.goodreads.com/book/show/57124262-daughter-of-the-moon-goddess",
+    "imagem": "https://m.media-amazon.com/images/I/81xq1VnxB1L.jpg",
+    "tags": ["Mitologia", "Romance", "Aventura"]
+  },
+  {
+    "nome": "Tress, a Garota do Mar Esmeralda",
+    "descrição": "Tress vive em uma ilha onde tudo o que ela ama é o oceano, mas ela é proibida de tocá-lo. Quando seu amado é levado por uma feiticeira, ela embarca em uma aventura audaciosa em um oceano de esporos mortais para salvá-lo.",
+    "ano": 2023,
+    "autor": "Brandon Sanderson",
+    "gênero": "Fantasia",
+    "link": "https://www.goodreads.com/book/show/60531406-tress-of-the-emerald-sea",
+    "imagem": "https://m.media-amazon.com/images/I/81z2EUQyBtL._UF1000,1000_QL80_.jpg",
+    "tags": ["Aventura", "Conto de Fadas", "Humor"]
+  },
+  {
+    "nome": "A Casa no Mar Cerúleo",
+    "descrição": "Linus Baker, um assistente social do Departamento de Assuntos da Juventude Mágica, é enviado para inspecionar um orfanato em uma ilha remota que abriga crianças mágicas consideradas perigosas. O que ele encontra lá mudará sua vida.",
+    "ano": 2020,
+    "autor": "T.J. Klune",
+    "gênero": "Fantasia",
+    "link": "https://www.goodreads.com/book/show/45047384-the-house-in-the-cerulean-sea",
+    "imagem": "https://m.media-amazon.com/images/I/81eXhOPEFPL.jpg",
+    "tags": ["LGBTQ+", "Realismo Mágico", "Feel-good"]
+  },
+  {
+    "nome": "Torto Arado",
+    "descrição": "A história das irmãs Bibiana e Belonísia, que vivem no sertão da Bahia. Suas vidas são marcadas por um acidente de infância e pela luta por terra, trabalho e liberdade em uma comunidade quilombola.",
+    "ano": 2019,
+    "autor": "Itamar Vieira Junior",
+    "gênero": "Romance Histórico",
+    "link": "https://pt.wikipedia.org/wiki/Torto_Arado",
+    "imagem": "https://m.media-amazon.com/images/I/71GyHj5glWL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Drama", "Realismo Mágico", "Brasil"]
+  },
+  {
+    "nome": "Vermelho, Branco e Sangue Azul",
+    "descrição": "Alex Claremont-Diaz, o primeiro-filho dos Estados Unidos, tem uma rivalidade secreta com o Príncipe Henry, da Inglaterra. Quando uma briga pública ameaça as relações internacionais, eles são forçados a uma amizade encenada que evolui para algo mais profundo.",
+    "ano": 2019,
+    "autor": "Casey McQuiston",
+    "gênero": "Romance",
+    "link": "https://www.goodreads.com/book/show/41817281-red-white-royal-blue",
+    "imagem": "https://m.media-amazon.com/images/I/71SYepTUsDL.jpg",
+    "tags": ["LGBTQ+", "Comédia", "Contemporâneo"]
+  },
+  {
+    "nome": "Quinze Dias",
+    "descrição": "Felipe, um jovem que não se encaixa nos padrões, vê suas férias de julho virarem de cabeça para baixo quando sua mãe decide hospedar Caio, o vizinho por quem ele tem uma paixão secreta. Uma história sobre primeiro amor, aceitação e autodescoberta.",
+    "ano": 2017,
+    "autor": "Vitor Martins",
+    "gênero": "Romance",
+    "link": "https://www.goodreads.com/book/show/36495916-quinze-dias",
+    "imagem": "https://m.media-amazon.com/images/I/51OYESeM8eL.jpg",
+    "tags": ["LGBTQ+", "Jovem Adulto", "Brasil"]
+  },
+  {
+    "nome": "O Avesso da Pele",
+    "descrição": "Pedro embarca em uma jornada para reconstruir a história de seu pai, um professor de literatura negro assassinado em uma abordagem policial. O livro é uma investigação sobre identidade, violência e racismo estrutural no Brasil.",
+    "ano": 2020,
+    "autor": "Jeferson Tenório",
+    "gênero": "Romance",
+    "link": "https://www.goodreads.com/book/show/55812955-o-avesso-da-pele",
+    "imagem": "https://m.media-amazon.com/images/I/81p29WCHFaL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Drama", "Racismo", "Brasil"]
+  },
+  {
+    "nome": "Um Lugar Bem Longe Daqui",
+    "descrição": "Uma jovem que cresceu isolada no pântano da Carolina do Norte é arrastada para o mundo quando um assassinato na cidade é investigado, desvendando segredos de seu passado.",
+    "ano": 2018,
+    "autor": "Delia Owens",
+    "gênero": "Ficção",
+    "link": "https://pt.wikipedia.org/wiki/Where_the_Crawdads_Sing",
+    "imagem": "https://m.media-amazon.com/images/I/61LhAUifXYL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Mistério", "Drama", "Natureza"]
+  },
+  {
+    "nome": "Pessoas Normais",
+    "descrição": "A história de amor e obsessão entre Marianne e Connell, explorando a complexidade de classes sociais, comunicação e a formação da identidade desde o ensino médio até a faculdade.",
+    "ano": 2018,
+    "autor": "Sally Rooney",
+    "gênero": "Romance",
+    "link": "https://pt.wikipedia.org/wiki/Normal_People",
+    "imagem": "https://livrariapublica.com.br/capa/pessoas-normais-sally-rooney-pdf-B07SZ4QRCJ.webp",
+    "tags": ["Drama", "Contemporâneo", "Psicológico"]
+  },
+  {
+    "nome": "Gótico Mexicano",
+    "descrição": "Uma jovem da sociedade viaja para uma mansão remota nas montanhas mexicanas para investigar o estranho pedido de ajuda de sua prima, confrontando horrores ancestrais e segredos familiares.",
+    "ano": 2020,
+    "autor": "Silvia Moreno-Garcia",
+    "gênero": "Terror",
+    "link": "https://pt.wikipedia.org/wiki/Mexican_Gothic",
+    "imagem": "https://darkside.vtexassets.com/arquivos/ids/173271/gotico-mexicano.jpg?v=637496900690000000",
+    "tags": ["Gótico", "Mistério", "Ficção Histórica"]
+  },
+  {
+    "nome": "O Priorado da Laranjeira",
+    "descrição": "Um épico de alta fantasia focado em um mundo dividido pela magia e em perigo iminente. Rainhas, assassinos e magos devem se unir para deter um dragão maligno que desperta.",
+    "ano": 2019,
+    "autor": "Samantha Shannon",
+    "gênero": "Fantasia",
+    "link": "https://en.wikipedia.org/wiki/The_Priory_of_the_Orange_Tree",
+    "imagem": "https://m.media-amazon.com/images/I/9176wXBJKAL._UF1000,1000_QL80_.jpg",
+    "tags": ["Alta Fantasia", "LGBTQ+", "Aventura"]
+  },
+  {
+    "nome": "Hábitos Atômicos",
+    "descrição": "Um guia prático sobre como construir bons hábitos e quebrar os ruins, através da metodologia de melhorias minúsculas que levam a resultados notáveis e duradouros.",
+    "ano": 2018,
+    "autor": "James Clear",
+    "gênero": "Não-Ficção",
+    "link": "https://pt.wikipedia.org/wiki/Atomic_Habits",
+    "imagem": "https://m.media-amazon.com/images/I/71prwdyuE7L.jpg",
+    "tags": ["Autoajuda", "Produtividade", "Psicologia"]
+  },
+  {
+    "nome": "A Metade Que Falta",
+    "descrição": "Duas irmãs gêmeas, negras, que se separam na adolescência. Anos depois, uma se passa por branca, e a outra retorna à pequena cidade, explorando temas de raça, identidade e classe.",
+    "ano": 2020,
+    "autor": "Brit Bennett",
+    "gênero": "Ficção",
+    "link": "https://en.wikipedia.org/wiki/The_Vanishing_Half",
+    "imagem": "https://loja.intrinseca.com.br/media/catalog/product/9/7/9786555601541_2_nb7svvnfqkptpvgi.jpg",
+    "tags": ["Ficção Histórica", "Drama", "Identidade"]
+  },
+  {
+    "nome": "Sombra e Ossos",
+    "descrição": "Em um mundo inspirado na Rússia czarista, uma órfã descobre que possui um poder único que pode ser a chave para salvar seu país da Dobra das Sombras, um abismo de escuridão.",
+    "ano": 2012,
+    "autor": "Leigh Bardugo",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/Shadow_and_Bone",
+    "imagem": "https://m.media-amazon.com/images/I/91Be1pRE4PL._UF1000,1000_QL80_.jpg",
+    "tags": ["Jovem Adulto", "Aventura", "Magia"]
+  },
+  {
+    "nome": "Talvez Um Dia",
+    "descrição": "Uma história de romance e música onde Sydney, após descobrir a traição de seu namorado, encontra consolo na amizade com seu vizinho, um músico, e o poder das canções que eles criam juntos.",
+    "ano": 2014,
+    "autor": "Colleen Hoover",
+    "gênero": "Romance",
+    "link": "https://en.wikipedia.org/wiki/Maybe_Someday",
+    "imagem": "https://m.media-amazon.com/images/I/91FEA9DCQGL._UF1000,1000_QL80_.jpg",
+    "tags": ["New Adult", "Música", "Drama"]
+  },
+  {
+    "nome": "Recursão",
+    "descrição": "Uma doença de memória misteriosa atinge a população, permitindo que as vítimas revivam momentos passados. Um policial e uma cientista precisam entender o que está por trás dessa ameaça que distorce a realidade.",
+    "ano": 2019,
+    "autor": "Blake Crouch",
+    "gênero": "Ficção Científica",
+    "link": "https://en.wikipedia.org/wiki/Recursion_(novel)",
+    "imagem": "https://m.media-amazon.com/images/I/61IcrwpeLUL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Suspense", "Mistério", "Viagem no Tempo"]
+  },
+  {
+    "nome": "A Paciente Silenciosa",
+    "descrição": "Alicia Berenson, uma famosa pintora, assassina seu marido e se cala. O terapeuta Theo Faber se torna obcecado em fazê-la falar, mergulhando no mistério que envolve o crime.",
+    "ano": 2019,
+    "autor": "Alex Michaelides",
+    "gênero": "Suspense",
+    "link": "https://pt.wikipedia.org/wiki/A_Paciente_Silenciosa",
+    "imagem": "https://m.media-amazon.com/images/I/91R8S52UP6L.jpg",
+    "tags": ["Mistério", "Psicológico", "Crime"]
+  },
+  {
+    "nome": "Se Fôssemos Vilões",
+    "descrição": "Um grupo de estudantes de teatro seleta em um conservatório elitista cruza a linha entre a arte e a realidade, levando a uma série de eventos dramáticos e um assassinato dez anos antes.",
+    "ano": 2017,
+    "autor": "M. L. Rio",
+    "gênero": "Suspense",
+    "link": "https://en.wikipedia.org/wiki/If_We_Were_Villains",
+    "imagem": "https://m.media-amazon.com/images/I/419K9y3aGSL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Dark Academia", "Mistério", "Drama"]
+  },
+  {
+    "nome": "Rainha Vermelha",
+    "descrição": "Em uma sociedade onde as pessoas são divididas pelo sangue, Vermelho (comuns) ou Prateado (elite com poderes), uma jovem Vermelha descobre ter habilidades que podem desequilibrar todo o sistema.",
+    "ano": 2015,
+    "autor": "Victoria Aveyard",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/Rainha_Vermelha_(livro)",
+    "imagem": "https://m.media-amazon.com/images/I/718rKQisF7L.jpg",
+    "tags": ["Distopia", "Jovem Adulto", "Aventura"]
+  },
+  {
+    "nome": "Os Quatro Compromissos",
+    "descrição": "Baseado na sabedoria tolteca, o livro oferece um código de conduta pessoal para transformar a vida em uma experiência de liberdade e felicidade plena.",
+    "ano": 1997,
+    "autor": "Don Miguel Ruiz",
+    "gênero": "Não-Ficção",
+    "link": "https://pt.wikipedia.org/wiki/Os_Quatro_Compromissos",
+    "imagem": "https://m.media-amazon.com/images/I/81y+IJ7UweS.jpg",
+    "tags": ["Espiritualidade", "Autoajuda", "Filosofia"]
+  },
+  {
+    "nome": "Amanhã, Amanhã e Ainda Outro Amanhã",
+    "descrição": "A saga de Sam e Sadie, dois amigos que se reconectam e se unem pela paixão em criar videogames, explorando amizade, ambição, e o mundo em constante mudança da cultura pop.",
+    "ano": 2022,
+    "autor": "Gabrielle Zevin",
+    "gênero": "Ficção",
+    "link": "https://en.wikipedia.org/wiki/Tomorrow,_and_Tomorrow,_and_Tomorrow",
+    "imagem": "https://m.media-amazon.com/images/I/91-j7Y9j+CL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Drama", "Amizade", "Videogames"]
+  },
+  {
+    "nome": "Os Seis de Atlas",
+    "descrição": "Seis dos magos mais poderosos do mundo competem por cinco vagas na Sociedade Alexandrina. A iniciação exige que eles provem seu valor através de trapaças, sacrifícios e, possivelmente, assassinato.",
+    "ano": 2020,
+    "autor": "Olivie Blake",
+    "gênero": "Fantasia",
+    "link": "https://en.wikipedia.org/wiki/The_Atlas_Six",
+    "imagem": "https://m.media-amazon.com/images/I/71ai-1k+6FL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Dark Academia", "Magia", "Mistério"]
+  },
+  {
+    "nome": "Lições de Química",
+    "descrição": "Nos anos 1950, Elizabeth Zott, uma cientista brilhante cuja carreira é sabotada pelo machismo, aceita o emprego de apresentadora de um programa de culinária, usando a química para empoderar mulheres.",
+    "ano": 2022,
+    "autor": "Bonnie Garmus",
+    "gênero": "Ficção Histórica",
+    "link": "https://en.wikipedia.org/wiki/Lessons_in_Chemistry",
+    "imagem": "https://m.media-amazon.com/images/I/41HptMSPwgL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Feminismo", "Comédia", "Drama"]
+  },
+  {
+    "nome": "Demon Copperhead",
+    "descrição": "Uma reinterpretação moderna de 'David Copperfield' ambientada nos Apalaches. Narra a vida de um garoto que luta contra a pobreza, o vício e a falha do sistema de assistência social nos EUA.",
+    "ano": 2022,
+    "autor": "Barbara Kingsolver",
+    "gênero": "Ficção",
+    "link": "https://en.wikipedia.org/wiki/Demon_Copperhead",
+    "imagem": "https://m.media-amazon.com/images/I/918DFDx5ZRL.jpg",
+    "tags": ["Drama Social", "Vício", "Releitura"]
+  },
+  {
+    "nome": "História Secreta",
+    "descrição": "Em uma faculdade de elite, um grupo de estudantes de estudos clássicos se torna obcecado pela estética e moralidade grega, levando-os a cometer atos extremos, culminando em um assassinato.",
+    "ano": 1992,
+    "autor": "Donna Tartt",
+    "gênero": "Suspense",
+    "link": "https://pt.wikipedia.org/wiki/A_Hist%C3%B3ria_Secreta",
+    "imagem": "https://m.media-amazon.com/images/I/71Jm6kZuwgS._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Dark Academia", "Mistério", "Psicológico"]
+  },
+  {
+    "nome": "Criaturas Brilhantes",
+    "descrição": "Uma zeladora de 70 anos em um aquário encontra consolo na amizade com Marcellus, um polvo gigante e sagaz, que possui a chave para o mistério do desaparecimento de seu filho décadas atrás.",
+    "ano": 2022,
+    "autor": "Shelby Van Pelt",
+    "gênero": "Ficção",
+    "link": "https://en.wikipedia.org/wiki/Remarkably_Bright_Creatures",
+    "imagem": "https://m.media-amazon.com/images/I/61scCjjGXwL.jpg",
+    "tags": ["Drama", "Amizade", "Mistério"]
+  },
+  {
+    "nome": "Pachinko",
+    "descrição": "Uma saga familiar épica que segue quatro gerações de uma família coreana que migra para o Japão no início do século XX, enfrentando a discriminação e o custo de ser estrangeiro em terras alheias.",
+    "ano": 2017,
+    "autor": "Min Jin Lee",
+    "gênero": "Ficção Histórica",
+    "link": "https://pt.wikipedia.org/wiki/Pachinko_(livro)",
+    "imagem": "https://m.media-amazon.com/images/I/81QrZLLu0GL._AC_UF1000,1000_QL80_.jpg",
+    "tags": ["Saga Familiar", "Drama", "Imigração"]
+  },
+  {
+    "nome": "O Príncipe Cruel",
+    "descrição": "Jude, uma mortal que vive no Reino das Fadas, deve navegar pelas intrigas da corte e lidar com o cruel Príncipe Cardan, um inimigo com quem ela se vê forçada a formar uma aliança.",
+    "ano": 2018,
+    "autor": "Holly Black",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/O_Pr%C3%ADncipe_Cruel",
+    "imagem": "https://static.wixstatic.com/media/742ca6_8e2a352b46244a1ab94e6395dee3e4d2~mv2.png/v1/fill/w_568,h_844,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/742ca6_8e2a352b46244a1ab94e6395dee3e4d2~mv2.png",
+    "tags": ["Jovem Adulto", "Romance", "Intriga"]
+  },
+  {
+    "nome": "A Hipótese do Amor",
+    "descrição": "Uma estudante de doutorado decide fingir um namoro com o professor mais temido do seu departamento, resultando em uma comédia romântica que testa as fronteiras entre a ciência e o amor.",
+    "ano": 2021,
+    "autor": "Ali Hazelwood",
+    "gênero": "Romance",
+    "link": "https://en.wikipedia.org/wiki/The_Love_Hypothesis",
+    "imagem": "https://images.dlivros.org/Ali-Hazelwood/hipotese-amor-ali-hazelwood_large.webp",
+    "tags": ["Comédia Romântica", "Contemporâneo", "Academia"]
+  },
+  {
+    "nome": "Seis de Corvos",
+    "descrição": "Kaz Brekker, um gênio do crime, reúne um bando de párias talentosos para realizar um assalto quase impossível, que pode render-lhes uma fortuna ou causar a destruição do mundo.",
+    "ano": 2015,
+    "autor": "Leigh Bardugo",
+    "gênero": "Fantasia",
+    "link": "https://pt.wikipedia.org/wiki/Six_of_Crows",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg3auYrMVdxIIbrVVcuaMsELRKKu21jhmJzQ&s",
+    "tags": ["Jovem Adulto", "Aventura", "Heist"]
+  }
+]
